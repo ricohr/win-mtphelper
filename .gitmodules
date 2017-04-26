@@ -1,0 +1,3 @@
+[submodule "wpdmtplib"]
+	path = wpdmtplib
+	url = git@github.com:kon0524/WpdMtp.git
