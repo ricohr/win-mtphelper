@@ -141,6 +141,18 @@ namespace MtpHelper
         }
 
 
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                // Turn on WS_EX_TOOLWINDOW style bit
+                CreateParams cp = base.CreateParams;
+                cp.Style |= 0x08000000; // WS_DISABLED
+                return cp;
+            }
+        }
+
+
         protected override void WndProc(ref Message m)
         {
             base.WndProc(ref m);
