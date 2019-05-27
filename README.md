@@ -148,7 +148,7 @@ deviceList
 ```
 
 
-MtpHelper.json
+MtpHelper.json ( https://github.com/ricohr/ricoh-r-console/blob/master/lib/mtphelper/MtpHelper.json ) 
 --------------
 
 This is a config file that MtpHelper.exe refers to.
